@@ -91,7 +91,17 @@ td {
 	font-size: 11px;
 	text-align: center;
 	margin-top: 10px;
+	padding: 20px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+	#Single-Price {
+		width: 100%;
+	}
+	.sign-up-button {
+		margin-bottom: 10px;
+	}
 }
